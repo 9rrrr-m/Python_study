@@ -1,19 +1,12 @@
-면류 = ['짜장면', '짬봉', '우동', '울면']
-식사류 = ['짜장밥', '짬봉밥', '볶음밥']
-세트 = [['탕수육', '짜장면', '짜장면'],
-      ['탕수육', '잡채', '물만두']]
+food_flavor = "sweet"
+if food_flavor == "sweet":
+    print("삼킨다.")
+else:
+    print("뱉는다.")
 
-면류.append('간짜장')
-# 면류.remove('우동')
-# 면류.insert(2, '사천짜장')
-면류[2] = '사천짜장'
 
-print(면류)
-
-print(str(len(면류) + len(식사류)) + '개')
-
-면류.sort(reverse=True)
-print(면류)
-
-세트.append(['탕수육', '고추잡채', '짬봉'])
-print(세트)
+age = 21
+if age >= 18:
+    print("운전 가능")
+else:
+    print("운전 불가능")

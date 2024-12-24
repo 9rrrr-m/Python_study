@@ -17,3 +17,11 @@ for i in movies:
         result.append(i)
 
 print(result)
+
+# 관객 수가 1000만명 이상 되는 영화 제목은?
+total = []
+for i in movies:
+    if movies[i][2] >= 10000000:
+        total.append(i)
+
+print(total)
