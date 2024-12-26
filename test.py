@@ -1,12 +1,10 @@
-food_flavor = "sweet"
-if food_flavor == "sweet":
-    print("삼킨다.")
-else:
-    print("뱉는다.")
+jjang = '09'
+jjang = 'handsome guy'
+
+def ban(a):
+    jjang = '07'
+    print(a, 'ban jjang =', jjang)
 
 
-age = 21
-if age >= 18:
-    print("운전 가능")
-else:
-    print("운전 불가능")
+ban (3)
+print(jjang)
