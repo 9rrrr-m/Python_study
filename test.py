@@ -1,10 +1,7 @@
-jjang = '09'
-jjang = 'handsome guy'
+import os
 
-def ban(a):
-    jjang = '07'
-    print(a, 'ban jjang =', jjang)
-
-
-ban (3)
-print(jjang)
+if os.path.exists('t.txt'):
+    os.remove('t.txt')
+    print('The file removed.')
+else:
+    print('The file does not exist.')
